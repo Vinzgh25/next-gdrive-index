@@ -167,7 +167,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * @default: 4MB
      */
-    maxFileSize: 104857600,
+    maxFileSize: 0,
 
     /**
      * Only show preview for files that are smaller than this size
@@ -180,7 +180,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can also set this to 0 to disable the limit
      *
-     * @default: 100MB
+     * @default: 0
      */
     streamMaxSize: 209715200,
   },
@@ -194,7 +194,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can set it to undefined if you don't want to use it
      */
-    siteName: "Flawless Gallery",
+    siteName: "Levi Index",
     siteNameTemplate: "%s - %t",
     siteDescription: "Lucas & sFrogTeam shutter gallery and sample",
 
@@ -209,7 +209,7 @@ const config: z.input<typeof Schema_Config> = {
      * Both are used on metadata
      * Affects the value of footer
     */
-    siteAuthor: "Lucas Dang",
+    siteAuthor: "Levi",
     twitterHandle: "phuchptty",
 
     /**
