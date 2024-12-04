@@ -167,7 +167,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * @default: 4MB
      */
-    maxFileSize: 0,
+    maxFileSize: 9000000000,
 
     /**
      * Only show preview for files that are smaller than this size
