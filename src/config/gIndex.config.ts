@@ -51,7 +51,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     // Use cyberchef instead
-    rootFolder: "2172497b045a848a8b46cd6ea7e9d02194ec4f091d3e7fc78faec0f4599025657a8f779bcf3619e6f45055b7ec9187d2",
+    rootFolder: "c043e8d4fbd3e347494ca0ce5e58ebe6f9dffc02febe1b781e6f98e7c13b5b4b3d5d44b46f92d43e62beaeff283a8a13",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
